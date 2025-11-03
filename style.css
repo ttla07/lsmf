@@ -292,7 +292,7 @@ body {
 
 .social-link.locket {
     background: #FFFFFF;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.3rem;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
