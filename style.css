@@ -78,10 +78,17 @@ body {
     height: 70px;
 }
 
-.nav-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #333;
+.logo-img {
+    height: 45px;       /* kích thước logo, có thể chỉnh tùy ý */
+    width: auto;
+    border-radius: 8px; /* bo tròn nhẹ cho đẹp */
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05); /* hiệu ứng phóng nhẹ khi hover */
+}
 }
 
 .nav-menu {
